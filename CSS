@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    background-color: orange;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Calci div,#Calci h2{
+    display:flex;
+    justify-content: center;
+}
+
+#layout{
+    width: 400px;
+    height: 300px;
+    background-color: rgba(0, 106, 255, 0.807);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 4px 3px rgb(0,0,0,1);
+    
+}
+
+h2{
+    justify-content: center;
+    padding-top: 70px;
+}
+
+div#input{
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#box::placeholder {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#box{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px 2px 2px 4px;
+
+}
+
+div#submit{
+    justify-content: center;
+}
+
+#button{
+    background-color: rgb(226, 162, 43);
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1.5px 1.5px 2px rgb(0,0,0,1);
+    font-family: inherit;
+}
+
+#result{
+    padding:4px 4px 4px 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#text{
+    width: 40%;
+    height: 20px;
+    border-radius: 8px;
+    font-family: inherit;
+}
